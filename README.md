@@ -6,23 +6,23 @@ Due: 02/10/2020, 11:30 am
 1. Problem 1 (30 points): Bag Client: Write a client class ConsonantsFilter that filters out all consonants from a bag containing letters. 
 
 To accomplish this:
-a. Create three bags that hold strings. One bag is named letters and contains several one-letter strings. Another bag is named vowels and contain five strings, one for each vowel. 
-The third bag is empty and is named consonants.
+  a. Create three bags that hold strings. One bag is named letters and contains several one-letter strings. Another bag is         named vowels and contain five strings, one for each vowel. 
+    The third bag is empty and is named consonants.
 
-b. One at a time
-  i. Remove a string from the bag letters.
-  ii. Check whether the string is in the bag vowels. Hint: look for an appropriate method in BagInterface that you can use.
-  iii. If it is not, place it into the bag consonants.
+  b. One at a time
+    i. Remove a string from the bag letters.
+    ii. Check whether the string is in the bag vowels. Hint: look for an appropriate method in BagInterface that you can use.
+    iii. If it is not, place it into the bag consonants.
 
-c. After you have checked all of the strings in the bag letters, report the number of
-consonants in the bag.
+  c. After you have checked all of the strings in the bag letters, report the number of
+    consonants in the bag.
 
-2. Problem 2 (30 points): Bag Implementation: In mathematics, the concepts of bags and sets are closely related. The difference is that bags allow duplicate items, while a set does not. 
+2. Problem 2 (30 points): Bag Implementation: In mathematics, the concepts of bags and sets are closely related. The       difference is that bags allow duplicate items, while a set does not. 
 An operation that removes the duplicates from a bag would be helpful if one wished to implement a set. Write a method in the ArrayBag class that removes the dublicates of all items in a bag:
 
   public void removeDuplicates() {...}
-Write also a client class TestArrayBag to test the removeDublicates() method.
-Hints for possible solutions of Problem 2:
+    Write also a client class TestArrayBag to test the removeDublicates() method.
+    Hints for possible solutions of Problem 2:
 
 
 
